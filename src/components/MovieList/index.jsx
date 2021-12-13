@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
 
 import movies from './../../movies.js';
 
@@ -9,7 +9,7 @@ const MovieList = () => {
 			<ul>
 				{
 					movies.map((movie) => (
-						<li key={movie.id}><Link to={`/movies/${movie.id}`}>{movie.title}</Link></li>
+						<li key={movie.id}><NavLink className={({isActive}) => isActive ? 'movieMenu' : '' } to={`/movies/${movie.id}`}>{movie.title}</NavLink></li>
 					))
 				}
 			</ul>

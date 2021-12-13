@@ -13,7 +13,7 @@ const Movie = () => {
 			<img src={`/assets/${movie.poster}`} alt={movie.title} />
 			<h2>{movie.title}</h2>
 			<p>{movie.storyline}</p>
-			<p><Link to="/">Zpět na seznam filmů</Link></p>
+			<p><Link to="/movies">Back to the list</Link></p>
 		</div>
 	)
 }
