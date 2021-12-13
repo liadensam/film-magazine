@@ -4,9 +4,9 @@ In programming there are many “paradigms”, which (put simply) define general
 
 It is important to understand both, but we will take the Functional Programming route to dive deeper in this Guide. Do not stop yourself from going further and studying Object-oriented programming as well!
 
-## Exercise
+## Film Magazine
 
 This exercise is not about the styling, but functionality and testing react router and using previous knowledge.
 
-- [Live site]()
+- [Live site](https://film-magazine.netlify.app/)
 - [GitHub Repository](https://github.com/liadensam/film-magazine)
